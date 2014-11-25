@@ -138,6 +138,8 @@
 		70D5E5DD16D9216C00E66631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5E5DC16D9216C00E66631 /* AppDelegate.m */; };
 		70D5E5E016D9216C00E66631 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5E5DF16D9216C00E66631 /* HelloWorldLayer.m */; };
 		70D5E5E316D9216C00E66631 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5E5E216D9216C00E66631 /* IntroLayer.m */; };
+		70D5E5EB16D9554500E66631 /* ShapeExperiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5E5EA16D9554500E66631 /* ShapeExperiment.m */; };
+		70D5E5EF16D9716800E66631 /* amoeba.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D5E5EE16D9716800E66631 /* amoeba.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +415,9 @@
 		70D5E5DF16D9216C00E66631 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		70D5E5E116D9216C00E66631 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		70D5E5E216D9216C00E66631 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		70D5E5E916D9554500E66631 /* ShapeExperiment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeExperiment.h; sourceTree = "<group>"; };
+		70D5E5EA16D9554500E66631 /* ShapeExperiment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeExperiment.m; sourceTree = "<group>"; };
+		70D5E5EE16D9716800E66631 /* amoeba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amoeba.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +476,7 @@
 		70D5E45416D9216A00E66631 /* circular shape test */ = {
 			isa = PBXGroup;
 			children = (
+				70D5E5EE16D9716800E66631 /* amoeba.png */,
 				70D5E5DB16D9216C00E66631 /* AppDelegate.h */,
 				70D5E5DC16D9216C00E66631 /* AppDelegate.m */,
 				70D5E5DE16D9216C00E66631 /* HelloWorldLayer.h */,
@@ -480,6 +486,8 @@
 				70D5E45516D9216A00E66631 /* Resources */,
 				70D5E47316D9216A00E66631 /* libs */,
 				70D5E5D716D9216C00E66631 /* Supporting Files */,
+				70D5E5E916D9554500E66631 /* ShapeExperiment.h */,
+				70D5E5EA16D9554500E66631 /* ShapeExperiment.m */,
 			);
 			path = "circular shape test";
 			sourceTree = "<group>";
@@ -923,6 +931,7 @@
 				70D5E46F16D9216A00E66631 /* Icon@2x.png in Resources */,
 				70D5E47216D9216A00E66631 /* iTunesArtwork in Resources */,
 				70D5E5BB16D9216C00E66631 /* ChangeLog in Resources */,
+				70D5E5EF16D9716800E66631 /* amoeba.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,6 +1049,7 @@
 				70D5E5DD16D9216C00E66631 /* AppDelegate.m in Sources */,
 				70D5E5E016D9216C00E66631 /* HelloWorldLayer.m in Sources */,
 				70D5E5E316D9216C00E66631 /* IntroLayer.m in Sources */,
+				70D5E5EB16D9554500E66631 /* ShapeExperiment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
